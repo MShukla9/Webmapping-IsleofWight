@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Isle of Wight | Landing Page</title>
+    
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo"><img src= "LogoIsleofWight.png" width= 150></h2>
+            <div class= "toggle"></div>
+        </header>
+
+        
+            <video src="ForIsleofWight.mp4" autoplay muted loop></video>
+            
+            <div class="overlay"></div>
+            
+            <div class="text">
+
+            <h2>Never Stop</h2>
+            <h3>Exploring The World</h3>
+            <p>“Twenty years from now you will be more disappointed by 
+            the things that you didn't do than by the ones you did do. 
+            So throw off the bowlines. Sail away from the safe harbor. 
+            Catch the trade winds in your sails. Explore. Dream. Discover.”</p>
+
+            <a href="#" class="btn"></a>
+            <button class="addMore" title="Welcome to the website of Isle of Wight County. Our goal is to provide more and better 
+            information to keep you, the citizens of our County, informed about the workings of your local government. 
+            Isle of Wight County encompasses an area of 148 square miles. 
+            To drive a continuous improvement culture of excellence that achieves a measurably high level of public satisfaction.">EXPLORE</button>
+            
+            </div>
+            
+			<div class="social">
+				<button title= "Facebook"> </button>
+				<button title= "Instagram"></button>
+			</div>
+            
+            <ul class="social">
+                
+                <p><a href="https://www.facebook.com/VisitIOW/" target="_blank">
+                    <img src= "facebook.png" width = 100 alt="">
+                    </a></p>
+                
+                    <p><a href="https://www.instagram.com/isleofwight/?hl=en" target="_blank">
+                        <img src= "instagram.png" width = 100 alt="">
+                        </a></p>
+
+                        <p><a href="https://twitter.com/VisitIOW?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                            <img src= "twitter.png" width = 100 alt="">
+                            </a></p>
+
+                            <p><a href="https://www.youtube.com/user/VisitIsleofWight" target="_blank">
+                                <img src= "youtube.png" width = 100 alt="">
+                                </a></p>
+                                
+                            <p><a href="Secondpage/index.html" target="_blank">
+                            <img src= "traveldest.png" width = 100 alt="">
+                            </a></p>
+
+                            <p><a href="https://cranfield-uni.maps.arcgis.com/apps/webappviewer/index.html?id=31cafb35b54a491dba0482cb4bcddd69" target="_blank">
+                                <img src= "sinkhole.png" width = 100 alt="">
+                                </a></p>
+
+                            <p><a href="https://www.google.com/maps/d/u/0/edit?mid=1wgRNbh7lDHtGzbYDEezqg56LQwfOta8_&ll=50.67506576157249%2C-1.3311956500000077&z=11" target="_blank">
+                            <img src= "triproutes.png" width = 100 alt="">
+                            </a></p>
+
+                            <p><a href="https://api.mapbox.com/styles/v1/mansisure1/ckzigdo8500fr14taa9ih4n9o.html?title=view&access_token=pk.eyJ1IjoibWFuc2lzdXJlMSIsImEiOiI1Mzk2MmRjMzAyZTE2NzNkNWZmNjM3MGJhNTRiNzY4MCJ9.5RQcLoyzHf6QZ2ATi8tB_g&zoomwheel=true&fresh=true#4.78/48.56/1.86/0/45" target="_blank">
+                                <img src= "airports.png" width = 100 alt="">
+                                </a></p>
+
+                            <p><a href="QGIS_WebMap/qgis2web_2022_02_10-22_52_44_519773/index.html#11/50.6713/-1.3299" target="_blank">
+                                <img src= "floodzone.png" width = 100 alt="">
+                                </a></p>
+                            
+                            <p><a href="Crime_OpenLayerGeoJson/index.html" target="_blank">
+                                <img src= "crime.png" width = 100 alt="">
+                                </a></p>
+
+                            <p><a href="https://arcg.is/0yS9vD" target="_blank">
+                                <img src= "storymap.png" width = 100 alt="">
+                                </a></p>
+								
+							<p><a href="KMZ/index.html" target="_blank">
+                                <img src= "landmark.png" width = 100 alt="">
+                                </a></p>
+
+
+            </ul>
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('Click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+        })
+    </script>
+
+</body>
+</html>
+
+ <!--  <section id="explore">
+        <h1>Explore</h1>
+        <h2>
+            Welcome to the website of Isle of Wight County. Our goal is to provide more and better 
+            information to keep you, the citizens of our County, informed about the workings of your local government. 
+            Isle of Wight County encompasses an area of 148 square miles. 
+            To drive a continuous improvement culture of excellence that achieves a measurably high level of public satisfaction.
+        </h2>
+
+
+    </section>-->
